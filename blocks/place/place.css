@@ -1,0 +1,9 @@
+.place {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  position: relative;
+  width: 984px;
+}
+
