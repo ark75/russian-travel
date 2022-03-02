@@ -6,12 +6,11 @@
   position: relative;
   justify-items: flex-start;
   padding: 0;
-  margin:0;
-  }
+  margin: 0;
+}
 
 @media screen  and (max-width: 511px) {
   .footer__links {
-   height: 240px;
     justify-content: space-between;
     flex-flow: column;
   }
