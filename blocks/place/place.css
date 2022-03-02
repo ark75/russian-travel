@@ -4,6 +4,12 @@
   flex-flow: row;
   flex-wrap: wrap;
   position: relative;
-  max-width: 984px;
+  width: 100%;
+  margin: 0 auto;
 }
 
+@media screen  and (max-width: 767px) and (min-width: 320px) {
+  .place {
+    flex-flow: column;
+  }
+}

@@ -1,7 +1,26 @@
 .place__paragraph-block {
-  width: 30%;
+  width: 49.23%;
   display: flex;
   flex-flow: column;
   flex-wrap: nowrap;
   margin: 0 0 0 40px;
+}
+@media screen  and (max-width: 1120px) and (min-width: 830px)  {
+  .place__paragraph-block  {
+    width: 47.44%;
+    margin: 0 0 0 32px;
+  }
+}
+@media screen  and (max-width: 829px) and (min-width: 321px)  {
+  .place__paragraph-block   {
+    width: 48.9%;
+    margin: 0 0 0 28px;
+  }
+}
+@media screen  and (max-width: 320px)   {
+  .place__paragraph-block  {
+    width: 90%;
+    margin: 0 0 0 16px;
+
+  }
 }

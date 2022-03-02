@@ -9,6 +9,36 @@
   color: white;
   margin: 0;
   padding-bottom: 26px;
-
-
 }
+
+@media screen  and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
+    padding-bottom: 25px;
+
+  }
+  .place__paragraph:last-child {
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen  and (max-width: 829px) and (min-width: 321px) {
+  .place__paragraph {
+    font-size: 16px;
+    padding-bottom: 25px;
+  }
+
+  .place__paragraph:last-child {
+    font-size: 16px;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen  and (max-width: 1120px) and (min-width: 830px) {
+  .place__paragraph {
+    width: 100%;
+  }
+}
+
+
