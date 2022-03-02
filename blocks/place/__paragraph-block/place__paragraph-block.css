@@ -13,14 +13,14 @@
   }
 }
 
-@media screen  and (max-width: 829px) and (min-width: 321px) {
+@media screen  and (max-width: 829px) and (min-width: 768px) {
   .place__paragraph-block {
     width: 48.9%;
     margin: 0 0 0 28px;
   }
 }
 
-@media screen  and (max-width: 320px) {
+@media screen  and (max-width: 767px) {
   .place__paragraph-block {
     width: 90%;
     margin: 0 0 0 16px;
